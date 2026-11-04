@@ -1,5 +1,12 @@
 # ML Kit Vision Quickstart Sample App
 
+## Status and provenance
+
+Historical standalone extraction of [Google's ML Kit vision quickstart](https://github.com/googlesamples/mlkit/tree/master/android/vision). Retained as reference material; no current Android build is claimed. Google retains the original copyright and Apache-2.0 licensing.
+
+The checked-in Gradle 6.5 wrapper and Android workflow describe the old sample environment. Use upstream documentation for a supported current toolchain.
+
+
 ## Introduction
 
 This ML Kit Quickstart app demonstrates how to use and integrate various vision based ML Kit features into your app.
@@ -16,7 +23,7 @@ Features that are included in this Quickstart app:
 * [Pose Detection](https://developers.google.com/ml-kit/vision/pose-detection/android) - Detect the position of the human body in real time.
 * [Selfie Segmentation](https://developers.google.com/ml-kit/vision/selfie-segmentation/android) - Segment people from the background in real time.
 
-<img src="../screenshots/quickstart-picker.png" width="220"/> <img src="../screenshots/quickstart-image-labeling.png" width="220"/> <img src="../screenshots/quickstart-object-detection.png" width="220"/> <img src="../screenshots/quickstart-pose-detection.png" width="220"/>
+Screenshots are available in the [upstream Android samples](https://github.com/googlesamples/mlkit/tree/master/android/screenshots).
 
 ## Getting Started
 
@@ -81,3 +88,7 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
+
+## Historical automation
+
+The old workflow is preserved at [docs/legacy-workflows/android.yml](docs/legacy-workflows/android.yml) and is intentionally not scheduled or triggered by documentation changes. Restore a tested, supported workflow before resuming automated builds or synchronization.
